@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(140, 210, 35);
+    padding: 20px;
+}
+.container{
+    
+    padding: 15px;
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.bookcontainer{
+    background-color: black;
+    padding:25px;
+    color: white;
+    border-radius: 20px;
+    margin: 30px;
+    display:inline-block;   
+    width: 25%;
+    vertical-align: top;
+}
+.bookcontainer h2{
+    color: rgb(140, 210, 35);
+
+}
+.bookcontainer button{
+    background-color: rgb(140, 210, 35);
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin-top: 15px;
+    
+}
+.addbutton{
+    background-color: rgb(140, 210, 35);
+    color:black;
+    padding: 20px 30px 20px 30px ;
+    border: none;
+    border-radius: 100%;
+    font-size: 40px;
+    position:fixed ;
+    bottom: 30px;
+    right:30px
+
+
+}
+.popupoverlay{
+    background-color: black;
+    width:100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+
+}
+.popupbox{
+    background-color:  rgb(140, 210, 35);
+    color:black;
+    width:40%;
+    border-radius: 20px;
+    padding: 40px;
+    border: none;
+    position: absolute;
+    top:20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popupbox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: solid 2px black;
+    font-size: 20px;
+    
+}
+.popupbox textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px black;
+    font-size: 20px;
+}
+.popupbox input::placeholder{
+    color: black;
+}
+.popupbox textarea::placeholder{
+    color: black;
+}
+.popupbox button{
+    background-color: black;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.popupbox input:focus{
+    outline: none;
+
+}
+.popupbox textarea:focus{
+    outline: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #98e54c;
+}

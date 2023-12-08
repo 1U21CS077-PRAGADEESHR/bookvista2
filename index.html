@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>BookVista</h1>
+    </nav>
+    <div class="container">
+        <div class="bookcontainer">
+            <h2>
+                Rich Dad Poor Dad
+            </h2>
+            <h5>Robert</h5>
+            <p>An asset in something that puts money in my pocket.A Liability is something that takes money of my Pocket...The More we knew about the power about the money,the more distant we grew from the teachers and the classmates</p>
+            <button onclick="deletei(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popupoverlay"></div> 
+    <div class="popupbox">
+        <h1>Add Book</h1>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="addbook">Add</button>
+            <button id="cancelbook">Cancel</button>
+
+        </form>
+    </div>
+
+    <button class="addbutton">+</button>
+    <div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
